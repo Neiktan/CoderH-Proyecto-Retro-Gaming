@@ -38,30 +38,10 @@ body{
     height: auto;
 }
 
-.container{
-    display: flex;
-    flex: row;
-}
 
-.img-nosotros{
-    width: 250px;
-    height: 170px;
-    border-radius: 20px;
-}
-
-.card{
-    border-radius: 20px;  /*esto hace como redondo el cuadro o imagen*/
-    margin-left: 10px;
-    width: 250px;
-    height: 170px;
-    background-color: #fff;
-    flex: 1;
-    transition: .3s all ease;
-}
-
-.card:hover{
-    flex: 2;
-    background-color: rgb(207, 207, 207,);
+.card-img-top{
+    width: auto;
+    height: 200px;
 }
 
 .articulo-mapa, .articulo-nosotros{
@@ -85,7 +65,7 @@ body{
 
 
 
-/*Comienzo de BODY de AGENDAR*/
+/*Comienzo de BODY de AGENDAR y CONTACTO*/
 
 .content{
     max-width: 1170px;
@@ -372,6 +352,13 @@ body{
     justify-content: space-evenly;
 }
 
+.img-nintendo-games, .img-playstation-games, .img-xbox-games, .img-pc-games, .img-arcade-games{
+    width: 250px;
+    height: 170px;
+    border-radius: 20px;
+    padding: 0 0 10px 0;
+}
+
 .seccion-nintendo{
     box-shadow: 0 0 20px 0 rgba(243, 27, 27, 0.3);
 }
@@ -385,6 +372,10 @@ body{
     justify-content: space-around;
 }
 
+.img-nintendo{
+    width: 300px;
+    height: 175px;
+}
 
 .seccion-playstation{
     box-shadow: 0 0 20px 0 rgba(51, 64, 240, 0.3);
@@ -413,6 +404,11 @@ body{
     justify-content: space-around;
 }
 
+.img-xbox{
+    width: 300px;
+    height: 175px;
+}
+
 
 .seccion-otro{
     box-shadow: 0 0 20px 0 rgba(215, 255, 37, 0.3);
@@ -436,30 +432,18 @@ body{
     justify-content: space-around;
 }
 
+.img-arcade{
+    width: 300px;
+    height: 175px;
+}
+
 
 
 
 
 
 /*Comienzo del footer*/
-.tp{
-    background-color: #222222;
+footer div p{
+    display: flex;
     text-align: center;
-}
-
-footer div ul li a button{
-    padding: 9px 25px;
-    background-color: rgba(14, 27, 211, 0.829);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-.inicio{
-    color: white;
-}
-
-.list-tp{
-    list-style: none;
 }
