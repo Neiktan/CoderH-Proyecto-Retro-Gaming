@@ -28,7 +28,7 @@
                         <div class="navbar-nav">
                             <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                             <a class="nav-link" href="./juegos.html">Juegos</a>
-                            <a class="nav-link" href="./comida.html">Comida</a>
+                            <a class="nav-link" href="./comida.html">Menu</a>
                             <a class="nav-link" href="./agendar.html">Agendar</a>
                             <a class="nav-link active" href="./contacto.html">Contacto</a>
                         </div>
@@ -39,7 +39,7 @@
         <main>
             <section>
                 <div class="content">
-                    <h1 class="logo-form">Contactanos</h1>
+                    <h2 class="logo-form">Contactanos</h2>
                     <div class="contact-wrapper">
                         <div class="contact-form">
                             <h3>Tus datos</h3>
@@ -54,14 +54,20 @@
                                     <input type="time">
                                 </p>
                                 <p>
-                                    <label >Number of tentacles (1-10):</label>
-                                    <input type="number" name="tentacles" min="1" max="10">
+                                    <label for="email">Correo electronico</label>
+                                    <input type="email" id="email" size="30" required>
                                 </p>
                                 <p>
                                     <label>Numero de telefono</label>
                                     <input type="tel" name="Numero de telefono"
                                     pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                                 </p>
+                                <p class="checkbox">
+                                    <input type="checkbox" id="checkbox" name="checkbox" checked>
+                                    <label for="checkbox">Estoy de acuerdo si pasan mas de 30 minutos sin reportar una asistencia, se cancelar automaticamente.</label>
+                                </p>
+                                <p><label for="freeform">Razon por la cual nos contactas</label><br>
+                                    <textarea id="freeform" name="freeform" rows="3" cols="32" class="textarea"></textarea></p>
                                 <p>
                                     <button type="submit">Enviar</button>
                                 </p>

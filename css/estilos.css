@@ -47,6 +47,7 @@ body{
 .articulo-mapa, .articulo-nosotros{
     box-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
     margin: 20px  10px;
+    padding: 5px 10px 10px 10px;
 }
 
 .flex-mapa{
@@ -76,7 +77,7 @@ body{
 
 .logo-form{
     text-align: center;
-    font-size: 1em;
+    font-size: 2em;
 }
 
 .contact-wrapper{
@@ -132,9 +133,12 @@ body{
 }
 
 .contact-info ul li{
-    padding: 2em;
+    padding: 1em;
 }
 
+.textarea{
+    padding: auto;
+}
 
 
 
@@ -372,6 +376,11 @@ body{
     justify-content: space-around;
 }
 
+.nintendo-title{  /* Maybe quitarlo no me gusta mucho*/
+    box-shadow: 0 0 30px 0 #D63031;
+    border-radius: 10px;
+}
+
 .img-nintendo{
     width: 300px;
     height: 175px;
@@ -443,7 +452,11 @@ body{
 
 
 /*Comienzo del footer*/
-footer div p{
-    display: flex;
+footer div p{  
     text-align: center;
 }
+
+footer div img{
+    align-items: center;
+}
+
