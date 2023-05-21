@@ -136,16 +136,7 @@ body{
     padding: 1em;
 }
 
-.textarea{
-    padding: auto;
-}
-
-
-
-
-
-/*Comienzo del BODY de COMIDA*/
-
+/*comienzo del body AGENDAR*/
 .comida-logo, .bebidas-logo, .aperativos-logo{
     background-color: #D63031;
     padding: 50px 50px 50px 50px;
