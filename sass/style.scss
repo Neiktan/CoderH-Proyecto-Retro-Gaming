@@ -7,7 +7,7 @@ html{
 }
 
 .body-agendar .body-comida .body-index .body-juegos .body-contacto{
-    padding: 1.8em;    /*puede ser el problema de cada uno body tener algo en la derecha de espacio*/
+    padding: 1.8em;
 }
 /*arriba-general-paginas*/
 
@@ -56,12 +56,10 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    .mapa{
+        padding: 0 0 20px 0;
+    }
 }
-
-.mapa{
-    padding: 0 0 20px 0;
-}
-
 
 
 
@@ -356,88 +354,79 @@ body{
 
 .seccion-nintendo{
     box-shadow: 0 0 20px 0 rgba(243, 27, 27, 0.3);
-}
-
-.articulo-nintendo{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.nintendo-title{  /* Maybe quitarlo no me gusta mucho*/
-    box-shadow: 0 0 30px 0 #D63031;
-    border-radius: 10px;
-}
-
-.img-nintendo{
-    width: 300px;
-    height: 175px;
+    .articulo-nintendo{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .nintendo-title{  /* Maybe quitarlo no me gusta mucho*/
+        box-shadow: 0 0 30px 0 #D63031;
+        border-radius: 10px;
+    }
+    .img-nintendo{
+        width: 300px;
+        height: 175px;
+    }
 }
 
 .seccion-playstation{
     box-shadow: 0 0 20px 0 rgba(51, 64, 240, 0.3);
+    .articulo-playstation{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
 }
-
-.articulo-playstation{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 
 .seccion-xbox{
     box-shadow: 0 0 20px 0 rgba(80, 238, 65, 0.3);
+    .articulo-xbox{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .img-xbox{
+        width: 300px;
+        height: 175px;
+    }
+    
 }
 
-.articulo-xbox{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.img-xbox{
-    width: 300px;
-    height: 175px;
-}
 
 
 .seccion-otro{
     box-shadow: 0 0 20px 0 rgba(215, 255, 37, 0.3);
+    .articulo-pc{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .articulo-arcade{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .img-arcade{
+        width: 300px;
+        height: 175px;
+    }
 }
-
-.articulo-pc{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.articulo-arcade{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.img-arcade{
-    width: 300px;
-    height: 175px;
-}
-
-
 
 
 

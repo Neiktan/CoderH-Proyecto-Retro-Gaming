@@ -1,0 +1,415 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body-agendar .body-comida .body-index .body-juegos .body-contacto {
+  padding: 1.8em;
+}
+
+/*arriba-general-paginas*/
+/*Header general*/
+.logo {
+  height: 50px;
+}
+
+/*Comienzo del BODY de INDEX*/
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #181818;
+  color: white;
+}
+
+.carusel {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-size {
+  width: auto;
+  height: auto;
+}
+
+.card-img-top {
+  width: auto;
+  height: 200px;
+}
+
+.articulo-mapa, .articulo-nosotros {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+  margin: 20px 10px;
+  padding: 5px 10px 10px 10px;
+}
+
+.flex-mapa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-mapa .mapa {
+  padding: 0 0 20px 0;
+}
+
+/*Comienzo de BODY de AGENDAR y CONTACTO*/
+.content {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+.logo-form {
+  text-align: center;
+  font-size: 2em;
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact-form {
+  background: #222222;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-form form button, .contact-form form input {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: 0;
+  border-bottom: 1px solid #D63031;
+  color: #fff;
+}
+
+.contact-form form button {
+  background-color: #D63031;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.contact-info {
+  background: #000;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact-info ul {
+  list-style: none;
+}
+
+.contact-info ul li {
+  padding: 1em;
+}
+
+/*comienzo del body AGENDAR*/
+.comida-logo, .bebidas-logo, .aperativos-logo {
+  background-color: #D63031;
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  text-align: center;
+}
+
+.comida-text, .aperativos-text, .bebidas-text {
+  margin: auto;
+}
+
+.margin-comida {
+  margin: 20px 20px 20px 20px;
+}
+
+.grid-pizza, .grid-hamburguesas, .grid-alitas, .grid-helados, .grid-sodas, .grid-alcohol {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+  margin: 0px 0px 20px 0px;
+}
+
+.pizza-title {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding: 50px 50px 50px 50px; /*cambiar padding a menor*/
+}
+
+.grid-pizza {
+  width: 100%;
+  height: 43vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 140px repeat(1, 1fr);
+  grid-template-areas: "grid-pizza-title grid-pizza-title" "grid-pizza-img grid-pizza-content";
+}
+
+.grid-pizza-title {
+  grid-area: grid-pizza-title;
+  text-align: center;
+  margin: 50px;
+}
+
+.grid-pizza-img {
+  border-radius: 20px;
+  grid-area: grid-pizza-img;
+}
+
+.grid-pizza-content {
+  grid-area: grid-pizza-content;
+}
+
+.grid-pizza-content-all {
+  flex-direction: column;
+}
+
+.grid-hamburguesas {
+  width: 100%;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 140px repeat(1, 1fr);
+  grid-template-areas: "grid-hamburguesas-title grid-hamburguesas-title" "grid-hamburguesas-img grid-hamburguesas-content";
+}
+
+.grid-hamburguesas-title {
+  grid-area: grid-hamburguesas-title;
+}
+
+.grid-hamburguesas-img {
+  border-radius: 20px;
+  grid-area: grid-hamburguesas-img;
+}
+
+.grid-hamburguesas-content {
+  grid-area: grid-hamburguesas-content;
+}
+
+.grid-alitas {
+  width: 100%;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 140px repeat(1, 1fr);
+  grid-template-areas: "grid-alitas-title grid-alitas-title" "grid-alitas-img grid-alitas-content";
+}
+
+.grid-alitas-title {
+  grid-area: grid-alitas-title;
+  text-align: center;
+  margin: 50px;
+}
+
+.grid-alitas-img {
+  width: 250px;
+  height: 170px;
+  border-radius: 20px;
+  grid-area: grid-alitas-img;
+}
+
+.grid-alitas-content {
+  grid-area: grid-alitas-content;
+}
+
+.grid-helados {
+  width: 100%;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 140px repeat(1, 1fr);
+  grid-template-areas: "grid-helados-title grid-helados-title" "grid-helados-img grid-helados-cont";
+}
+
+.grid-helados-title {
+  grid-area: grid-helados-title;
+  text-align: center;
+  margin: 50px;
+}
+
+.grid-helados-img {
+  border-radius: 20px;
+  grid-area: grid-helados-img;
+}
+
+.grid-helados-cont {
+  grid-area: grid-helados-cont;
+}
+
+.grid-sodas {
+  width: 100%;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 140px repeat(1, 1fr);
+  grid-template-areas: "grid-sodas-title grid-sodas-title" "grid-sodas-img grid-sodas-content";
+}
+
+.grid-sodas-title {
+  grid-area: grid-sodas-title;
+  text-align: center;
+  margin: 50px;
+}
+
+.grid-sodas-img {
+  grid-area: grid-sodas-img;
+  border-radius: 20px;
+}
+
+.grid-sodas-content {
+  grid-area: grid-sodas-content;
+}
+
+.grid-alcohol {
+  width: 100%;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 140px repeat(1, 1fr);
+  grid-template-areas: "grid-alcohol-title grid-alcohol-title" "grid-alcohol-img grid-alcohol-content";
+}
+
+.grid-alcohol-title {
+  grid-area: grid-alcohol-title;
+  text-align: center;
+  margin: 50px;
+}
+
+.grid-alcohol-img {
+  grid-area: grid-alcohol-img;
+  border-radius: 20px;
+}
+
+.grid-alcohol-content {
+  grid-area: grid-alcohol-content;
+}
+
+/*Comienzo del BODY de JUEGOS*/
+.seccion-playstation, .seccion-xbox, .seccion-nintendo, .seccion-otro {
+  margin: 20px 20px 20px 20px;
+}
+
+.flex-nintendo-title, .flex-playstation-title, .flex-xbox-title, .flex-pc-title, .flex-arcade-title {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 0 0;
+}
+
+.img-nintendo, .img-playstation, .img-xbox, .img-pc, .img-arcade {
+  padding: 0px 0px 10px 0px;
+}
+
+.imgs-nintendo, .imgs-playstation, .imgs-xbox, .imgs-pc, .imgs-arcade {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.img-nintendo-games, .img-playstation-games, .img-xbox-games, .img-pc-games, .img-arcade-games {
+  width: 250px;
+  height: 170px;
+  border-radius: 20px;
+  padding: 0 0 10px 0;
+}
+
+.seccion-nintendo {
+  box-shadow: 0 0 20px 0 rgba(243, 27, 27, 0.3);
+}
+.seccion-nintendo .articulo-nintendo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.seccion-nintendo .nintendo-title { /* Maybe quitarlo no me gusta mucho*/
+  box-shadow: 0 0 30px 0 #D63031;
+  border-radius: 10px;
+}
+.seccion-nintendo .img-nintendo {
+  width: 300px;
+  height: 175px;
+}
+
+.seccion-playstation {
+  box-shadow: 0 0 20px 0 rgba(51, 64, 240, 0.3);
+}
+.seccion-playstation .articulo-playstation {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.seccion-xbox {
+  box-shadow: 0 0 20px 0 rgba(80, 238, 65, 0.3);
+}
+.seccion-xbox .articulo-xbox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.seccion-xbox .img-xbox {
+  width: 300px;
+  height: 175px;
+}
+
+.seccion-otro {
+  box-shadow: 0 0 20px 0 rgba(215, 255, 37, 0.3);
+}
+.seccion-otro .articulo-pc {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.seccion-otro .articulo-arcade {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.seccion-otro .img-arcade {
+  width: 300px;
+  height: 175px;
+}
+
+/*Comienzo del footer*/
+footer div p {
+  text-align: center;
+}
+
+footer div img {
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
