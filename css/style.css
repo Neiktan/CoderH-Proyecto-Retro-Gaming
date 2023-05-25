@@ -10,123 +10,6 @@ html {
   padding: 1.8em;
 }
 
-/*arriba-general-paginas*/
-/*Header general*/
-.logo {
-  height: 50px;
-}
-
-/*Comienzo del BODY de INDEX*/
-body {
-  font-family: "Space Grotesk", sans-serif;
-  background-color: #181818;
-  color: white;
-}
-
-.carusel {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.img-size {
-  width: auto;
-  height: auto;
-}
-
-.card-img-top {
-  width: auto;
-  height: 200px;
-}
-
-.articulo-mapa, .articulo-nosotros {
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
-  margin: 20px 10px;
-  padding: 5px 10px 10px 10px;
-}
-
-.flex-mapa {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-.flex-mapa .mapa {
-  padding: 0 0 20px 0;
-}
-
-/*Comienzo de BODY de AGENDAR y CONTACTO*/
-.content {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1.5em;
-}
-
-.logo-form {
-  text-align: center;
-  font-size: 2em;
-}
-
-.contact-wrapper {
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
-}
-
-.contact-wrapper > * {
-  padding: 1em;
-}
-
-.contact-form {
-  background: #222222;
-}
-
-.contact-form form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.contact-form form p {
-  margin: 0;
-  padding: 1em;
-}
-
-.contact-form form button, .contact-form form input {
-  width: 100%;
-  padding: 0.7em;
-  border: none;
-  background: none;
-  outline: 0;
-  border-bottom: 1px solid #D63031;
-  color: #fff;
-}
-
-.contact-form form button {
-  background-color: #D63031;
-  border: 0;
-  text-transform: uppercase;
-  padding: 1em;
-}
-
-.contact-info {
-  background: #000;
-}
-
-.contact-info h4, .contact-info ul, .contact-info p {
-  text-align: center;
-  margin: 0 0 1rem 0;
-}
-
-.contact-info ul {
-  list-style: none;
-}
-
-.contact-info ul li {
-  padding: 1em;
-}
-
-/*comienzo del body AGENDAR*/
 .comida-logo, .bebidas-logo, .aperativos-logo {
   background-color: #D63031;
   padding: 50px 50px 50px 50px;
@@ -302,7 +185,47 @@ body {
   grid-area: grid-alcohol-content;
 }
 
-/*Comienzo del BODY de JUEGOS*/
+/*Comienzo del BODY de INDEX*/
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #181818;
+  color: white;
+}
+
+.carusel {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-size {
+  width: auto;
+  height: auto;
+}
+
+.card-img-top {
+  width: auto;
+  height: 200px;
+}
+
+.articulo-mapa, .articulo-nosotros {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+  margin: 20px 10px;
+  padding: 5px 10px 10px 10px;
+}
+
+.flex-mapa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-mapa .mapa {
+  padding: 0 0 20px 0;
+}
+
 .seccion-playstation, .seccion-xbox, .seccion-nintendo, .seccion-otro {
   margin: 20px 20px 20px 20px;
 }
@@ -401,6 +324,79 @@ body {
 .seccion-otro .img-arcade {
   width: 300px;
   height: 175px;
+}
+
+.content {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+.logo-form {
+  text-align: center;
+  font-size: 2em;
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact-form {
+  background: #222222;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-form form button, .contact-form form input {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: 0;
+  border-bottom: 1px solid #D63031;
+  color: #fff;
+}
+
+.contact-form form button {
+  background-color: #D63031;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.contact-info {
+  background: #000;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact-info ul {
+  list-style: none;
+}
+
+.contact-info ul li {
+  padding: 1em;
+}
+
+/*Header general*/
+.logo {
+  height: 50px;
 }
 
 /*Comienzo del footer*/

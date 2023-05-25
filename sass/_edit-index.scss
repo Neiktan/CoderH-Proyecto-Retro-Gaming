@@ -1,0 +1,42 @@
+/*Comienzo del BODY de INDEX*/
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #181818;
+    color: white;
+}
+
+.carusel{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-size{
+    width: auto;
+    height: auto;
+}
+
+
+.card-img-top{
+    width: auto;
+    height: 200px;
+}
+
+.articulo-mapa, .articulo-nosotros{
+    box-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
+    margin: 20px  10px;
+    padding: 5px 10px 10px 10px;
+}
+
+.flex-mapa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .mapa{
+        padding: 0 0 20px 0;
+    }
+}

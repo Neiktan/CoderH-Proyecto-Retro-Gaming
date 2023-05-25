@@ -1,0 +1,182 @@
+.comida-logo, .bebidas-logo, .aperativos-logo{
+    background-color: #D63031;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    text-align: center;
+}
+
+.comida-text, .aperativos-text, .bebidas-text{
+    margin: auto;
+}
+
+.margin-comida{
+    margin: 20px 20px 20px 20px;
+}
+
+.grid-pizza, .grid-hamburguesas, .grid-alitas, .grid-helados, .grid-sodas, .grid-alcohol{
+    box-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
+    margin: 0px 0px 20px 0px;
+    }
+
+.pizza-title{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 50px 50px 50px 50px; /*cambiar padding a menor*/
+}
+
+.grid-pizza{
+    width: 100%;
+    height: 43vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);;
+    grid-template-rows: 140px repeat(1, 1fr);;
+    grid-template-areas: 
+        "grid-pizza-title grid-pizza-title"
+        "grid-pizza-img grid-pizza-content"
+    ;
+}
+
+.grid-pizza-title{
+    grid-area: grid-pizza-title;
+    text-align: center;
+    margin: 50px;
+}
+.grid-pizza-img{
+    border-radius: 20px;
+    grid-area: grid-pizza-img;
+}
+.grid-pizza-content{
+    grid-area: grid-pizza-content;
+}
+
+.grid-pizza-content-all{
+    flex-direction: column;
+}
+
+
+.grid-hamburguesas{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 140px repeat(1, 1fr);
+    grid-template-areas:
+        "grid-hamburguesas-title grid-hamburguesas-title"
+        "grid-hamburguesas-img grid-hamburguesas-content"
+    ;
+}
+
+.grid-hamburguesas-title{
+    grid-area: grid-hamburguesas-title;
+}
+.grid-hamburguesas-img{
+    border-radius: 20px;
+    grid-area: grid-hamburguesas-img;
+}
+.grid-hamburguesas-content{
+    grid-area: grid-hamburguesas-content;
+}
+
+.grid-alitas{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 140px repeat(1, 1fr);
+    grid-template-areas:
+        "grid-alitas-title grid-alitas-title"
+        "grid-alitas-img grid-alitas-content"
+    ;
+}
+
+.grid-alitas-title{
+    grid-area: grid-alitas-title;
+    text-align: center;
+    margin: 50px;
+}
+.grid-alitas-img{
+        width: 250px;
+        height: 170px;
+        border-radius: 20px;
+    grid-area: grid-alitas-img;
+}
+.grid-alitas-content{
+    grid-area: grid-alitas-content;
+}
+
+.grid-helados{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 140px repeat(1, 1fr);
+    grid-template-areas: 
+        "grid-helados-title grid-helados-title"
+        "grid-helados-img grid-helados-cont"
+    ;
+}
+
+.grid-helados-title{
+    grid-area: grid-helados-title;
+    text-align: center;
+    margin: 50px;
+}
+.grid-helados-img{
+    border-radius: 20px;
+    grid-area: grid-helados-img;
+}
+.grid-helados-cont{
+    grid-area: grid-helados-cont;
+}
+
+
+.grid-sodas{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 140px repeat(1, 1fr);
+    grid-template-areas: 
+        "grid-sodas-title grid-sodas-title"
+        "grid-sodas-img grid-sodas-content"
+    ;
+}
+
+.grid-sodas-title{
+    grid-area: grid-sodas-title;
+    text-align: center;
+    margin: 50px;
+}
+.grid-sodas-img{
+    grid-area: grid-sodas-img;
+    border-radius: 20px;
+}
+.grid-sodas-content{
+    grid-area: grid-sodas-content;
+}
+
+.grid-alcohol{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 140px repeat(1, 1fr);
+    grid-template-areas: 
+        "grid-alcohol-title grid-alcohol-title"
+        "grid-alcohol-img grid-alcohol-content"
+    ;
+}
+
+.grid-alcohol-title{
+    grid-area: grid-alcohol-title;
+    text-align: center;
+    margin: 50px;
+}
+.grid-alcohol-img{
+    grid-area: grid-alcohol-img;
+    border-radius: 20px;
+}
+.grid-alcohol-content{
+    grid-area: grid-alcohol-content;
+}
