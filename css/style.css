@@ -520,12 +520,12 @@ body {
 }
 
 /*Comienzo del footer*/
-footer div p {
-  text-align: center;
-}
-
 footer div img {
   align-items: center;
+}
+
+footer div p {
+  text-align: center;
 }
 
 @media (max-width: 425px) {

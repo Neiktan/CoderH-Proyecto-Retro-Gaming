@@ -18,15 +18,16 @@ $tablet: 768px;
 }
 
 /*Comienzo del footer*/
-footer div p{  
-    text-align: center;
-}
-
 footer div img{
     align-items: center;
 }
 
-//!Necesito ver por que no me funciona//
+
+footer div p{  
+    text-align: center;
+}
+
+
 @media (max-width: $celular) {
     .socials{
         align-items: center;
