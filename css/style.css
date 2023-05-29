@@ -87,6 +87,8 @@ html {
 }
 .grid-hamburguesas .grid-hamburguesas-title {
   grid-area: grid-hamburguesas-title;
+  text-align: center;
+  margin: 50px;
 }
 .grid-hamburguesas .grid-hamburguesas-img {
   border-radius: 20px;
@@ -506,6 +508,12 @@ body {
   padding: 1em;
 }
 
+@media (max-width: 425px) {
+  .contact-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 /*Header general*/
 .logo {
   height: 50px;
@@ -518,6 +526,13 @@ footer div p {
 
 footer div img {
   align-items: center;
+}
+
+@media (max-width: 425px) {
+  .socials {
+    align-items: center;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

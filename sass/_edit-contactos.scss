@@ -66,3 +66,12 @@
 .contact-info ul li{
     padding: 1em;
 }
+
+@media (max-width: $celular) {
+    .contact-form form{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+///Coding para agendar

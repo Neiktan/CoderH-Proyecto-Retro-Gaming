@@ -26,3 +26,11 @@ footer div img{
     align-items: center;
 }
 
+//!Necesito ver por que no me funciona//
+@media (max-width: $celular) {
+    .socials{
+        align-items: center;
+        text-align: center;
+    }
+}
+
