@@ -56,6 +56,19 @@
     }
 }
 
+@media (max-width: $tablet) {
+    .grid-pizza{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .grid-pizza-img{
+        margin: 10px 0 0 0;
+    }
+}
 
 .grid-hamburguesas{
     width: 100%;
@@ -87,6 +100,20 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+}
+
+@media (max-width: $tablet) {
+    .grid-hamburguesas{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .grid-hamburguesas-img{
+        margin: 10px 0 0 0;
     }
 }
 
@@ -127,6 +154,20 @@
     }
 }
 
+@media (max-width: $tablet) {
+    .grid-alitas{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .grid-alitas-img{
+        margin: 10px 0 0 0;
+    }
+}
+
 .grid-helados{
     width: 100%;
     height: 40vh;
@@ -159,6 +200,20 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+}
+
+@media (max-width: $tablet) {
+    .grid-helados{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .grid-helados-img{
+        margin: 10px 0;
     }
 }
 
@@ -197,6 +252,21 @@
     }
 }
 
+@media (max-width: $tablet) {
+    .grid-sodas{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .grid-sodas-img{
+        margin: 10px 0;
+    }
+}
+
+
 .grid-alcohol{
     width: 100%;
     height: 40vh;
@@ -229,5 +299,19 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+}
+
+@media (max-width: $tablet) {
+    .grid-alcohol{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .grid-alcohol-img{
+        margin: 10px 0 0 0;
     }
 }
