@@ -23,7 +23,7 @@
     height: 43vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);;
-    grid-template-rows: 140px repeat(1, 1fr);;
+    grid-template-rows: 100px repeat(1, 1fr);;
     grid-template-areas: 
         "grid-pizza-title grid-pizza-title"
         "grid-pizza-img grid-pizza-content"
@@ -31,51 +31,30 @@
     .grid-pizza-title{
         grid-area: grid-pizza-title;
         text-align: center;
-        margin: 50px;
+        padding: 40px;
     }
     .grid-pizza-img{
         border-radius: 20px;
         grid-area: grid-pizza-img;
+        width: 280px;
+        height: 200px;
     }
     .grid-pizza-content{
         grid-area: grid-pizza-content;
     }
     .grid-pizza-content-all{
+        display: flex;
         flex-direction: column;
     }
 }
 
-@media (max-width: $celular) {
-    .grid-pizza{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-}
-
-@media (max-width: $tablet) {
-    .grid-pizza{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .grid-pizza-img{
-        margin: 10px 0 0 0;
-    }
-}
 
 .grid-hamburguesas{
     width: 100%;
-    height: 40vh;
+    height: 43vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 140px repeat(1, 1fr);
+    grid-template-rows: 100px repeat(1, 1fr);
     grid-template-areas:
         "grid-hamburguesas-title grid-hamburguesas-title"
         "grid-hamburguesas-img grid-hamburguesas-content"
@@ -83,48 +62,26 @@
     .grid-hamburguesas-title{
         grid-area: grid-hamburguesas-title;
         text-align: center;
-        margin: 50px;
+        padding: 40px;
     }
     .grid-hamburguesas-img{
         border-radius: 20px;
         grid-area: grid-hamburguesas-img;
+        width: 280px;
+        height: 200px;
     }
     .grid-hamburguesas-content{
         grid-area: grid-hamburguesas-content;
     }
 }
 
-@media (max-width: $celular) {
-    .grid-hamburguesas{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-}
-
-@media (max-width: $tablet) {
-    .grid-hamburguesas{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .grid-hamburguesas-img{
-        margin: 10px 0 0 0;
-    }
-}
 
 .grid-alitas{
     width: 100%;
-    height: 40vh;
+    height: 43vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 140px repeat(1, 1fr);
+    grid-template-rows: 100px repeat(1, 1fr);
     grid-template-areas:
         "grid-alitas-title grid-alitas-title"
         "grid-alitas-img grid-alitas-content"
@@ -132,50 +89,26 @@
     .grid-alitas-title{
         grid-area: grid-alitas-title;
         text-align: center;
-        margin: 50px;
+        padding: 40px;
     }
     .grid-alitas-img{
-            width: 250px;
-            height: 170px;
-            border-radius: 20px;
+        border-radius: 20px;
         grid-area: grid-alitas-img;
+        width: 280px;
+        height: 200px;
     }
     .grid-alitas-content{
         grid-area: grid-alitas-content;
     }
 }
 
-@media (max-width: $celular) {
-    .grid-alitas{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-}
-
-@media (max-width: $tablet) {
-    .grid-alitas{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .grid-alitas-img{
-        margin: 10px 0 0 0;
-    }
-}
 
 .grid-helados{
     width: 100%;
     height: 40vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 140px repeat(1, 1fr);
+    grid-template-rows: 100px repeat(1, 1fr);
     grid-template-areas: 
         "grid-helados-title grid-helados-title"
         "grid-helados-img grid-helados-cont"
@@ -183,48 +116,26 @@
     .grid-helados-title{
         grid-area: grid-helados-title;
         text-align: center;
-        margin: 50px;
+        padding: 40px;
     }
     .grid-helados-img{
         border-radius: 20px;
         grid-area: grid-helados-img;
+        width: 280px;
+        height: 200px;
     }
     .grid-helados-cont{
         grid-area: grid-helados-cont;
     }
 }
 
-@media (max-width: $celular) {
-    .grid-helados{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-}
-
-@media (max-width: $tablet) {
-    .grid-helados{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .grid-helados-img{
-        margin: 10px 0;
-    }
-}
 
 .grid-sodas{
     width: 100%;
-    height: 40vh;
+    height: 43vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 140px repeat(1, 1fr);
+    grid-template-rows: 100px repeat(1, 1fr);
     grid-template-areas: 
         "grid-sodas-title grid-sodas-title"
         "grid-sodas-img grid-sodas-content"
@@ -232,49 +143,28 @@
     .grid-sodas-title{
         grid-area: grid-sodas-title;
         text-align: center;
-        margin: 50px;
+        padding: 40px;
     }
     .grid-sodas-img{
         grid-area: grid-sodas-img;
         border-radius: 20px;
+        width: 280px;
+        height: 200px;
     }
     .grid-sodas-content{
         grid-area: grid-sodas-content;
-    }
-}
-
-@media (max-width: $celular){
-    .grid-sodas{
-        width: 100%;
-        height: auto;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-around;
-    }
-}
-
-@media (max-width: $tablet) {
-    .grid-sodas{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .grid-sodas-img{
-        margin: 10px 0;
     }
 }
 
 
 .grid-alcohol{
     width: 100%;
-    height: 40vh;
+    height: 43vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 140px repeat(1, 1fr);
+    grid-template-rows: 100px repeat(1, 1fr);
     grid-template-areas: 
         "grid-alcohol-title grid-alcohol-title"
         "grid-alcohol-img grid-alcohol-content"
@@ -282,19 +172,29 @@
     .grid-alcohol-title{
         grid-area: grid-alcohol-title;
         text-align: center;
-        margin: 50px;
+        padding: 40px;
     }
     .grid-alcohol-img{
         grid-area: grid-alcohol-img;
         border-radius: 20px;
+        width: 280px;
+        height: 200px;
     }
     .grid-alcohol-content{
         grid-area: grid-alcohol-content;
     }
 }
 
+
+
+// @media IMPORTS ///
+
+
 @media (max-width: $celular) {
-    .grid-alcohol{
+    .grid-alitas-title{
+        margin: 10px;
+    }
+    .grid-alcohol, .grid-sodas, .grid-helados, .grid-alitas, .grid-hamburguesas, .grid-pizza{
         width: 100%;
         height: auto;
         display: flex;
@@ -305,7 +205,7 @@
 }
 
 @media (max-width: $tablet) {
-    .grid-alcohol{
+    .grid-alcohol, .grid-sodas, .grid-helados, .grid-alitas, .grid-hamburguesas, .grid-pizza{
         width: 100%;
         height: auto;
         display: flex;
@@ -313,7 +213,8 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .grid-alcohol-img{
-        margin: 10px 0 0 0;
+
+    .grid-alcohol-img, .grid-pizza-img, .grid-hamburguesas-img, .grid-alitas-img, .grid-helados-img, .grid-sodas-img{
+        margin: 10px 0 10px 0;
     }
 }

@@ -35,249 +35,150 @@ html {
   height: 43vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 140px repeat(1, 1fr);
+  grid-template-rows: 100px repeat(1, 1fr);
   grid-template-areas: "grid-pizza-title grid-pizza-title" "grid-pizza-img grid-pizza-content";
 }
 .grid-pizza .grid-pizza-title {
   grid-area: grid-pizza-title;
   text-align: center;
-  margin: 50px;
+  padding: 40px;
 }
 .grid-pizza .grid-pizza-img {
   border-radius: 20px;
   grid-area: grid-pizza-img;
+  width: 280px;
+  height: 200px;
 }
 .grid-pizza .grid-pizza-content {
   grid-area: grid-pizza-content;
 }
 .grid-pizza .grid-pizza-content-all {
+  display: flex;
   flex-direction: column;
 }
 
-@media (max-width: 425px) {
-  .grid-pizza {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-}
-@media (max-width: 768px) {
-  .grid-pizza {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .grid-pizza-img {
-    margin: 10px 0 0 0;
-  }
-}
 .grid-hamburguesas {
   width: 100%;
-  height: 40vh;
+  height: 43vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 140px repeat(1, 1fr);
+  grid-template-rows: 100px repeat(1, 1fr);
   grid-template-areas: "grid-hamburguesas-title grid-hamburguesas-title" "grid-hamburguesas-img grid-hamburguesas-content";
 }
 .grid-hamburguesas .grid-hamburguesas-title {
   grid-area: grid-hamburguesas-title;
   text-align: center;
-  margin: 50px;
+  padding: 40px;
 }
 .grid-hamburguesas .grid-hamburguesas-img {
   border-radius: 20px;
   grid-area: grid-hamburguesas-img;
+  width: 280px;
+  height: 200px;
 }
 .grid-hamburguesas .grid-hamburguesas-content {
   grid-area: grid-hamburguesas-content;
 }
 
-@media (max-width: 425px) {
-  .grid-hamburguesas {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-}
-@media (max-width: 768px) {
-  .grid-hamburguesas {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .grid-hamburguesas-img {
-    margin: 10px 0 0 0;
-  }
-}
 .grid-alitas {
   width: 100%;
-  height: 40vh;
+  height: 43vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 140px repeat(1, 1fr);
+  grid-template-rows: 100px repeat(1, 1fr);
   grid-template-areas: "grid-alitas-title grid-alitas-title" "grid-alitas-img grid-alitas-content";
 }
 .grid-alitas .grid-alitas-title {
   grid-area: grid-alitas-title;
   text-align: center;
-  margin: 50px;
+  padding: 40px;
 }
 .grid-alitas .grid-alitas-img {
-  width: 250px;
-  height: 170px;
   border-radius: 20px;
   grid-area: grid-alitas-img;
+  width: 280px;
+  height: 200px;
 }
 .grid-alitas .grid-alitas-content {
   grid-area: grid-alitas-content;
 }
 
-@media (max-width: 425px) {
-  .grid-alitas {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-}
-@media (max-width: 768px) {
-  .grid-alitas {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .grid-alitas-img {
-    margin: 10px 0 0 0;
-  }
-}
 .grid-helados {
   width: 100%;
   height: 40vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 140px repeat(1, 1fr);
+  grid-template-rows: 100px repeat(1, 1fr);
   grid-template-areas: "grid-helados-title grid-helados-title" "grid-helados-img grid-helados-cont";
 }
 .grid-helados .grid-helados-title {
   grid-area: grid-helados-title;
   text-align: center;
-  margin: 50px;
+  padding: 40px;
 }
 .grid-helados .grid-helados-img {
   border-radius: 20px;
   grid-area: grid-helados-img;
+  width: 280px;
+  height: 200px;
 }
 .grid-helados .grid-helados-cont {
   grid-area: grid-helados-cont;
 }
 
-@media (max-width: 425px) {
-  .grid-helados {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-}
-@media (max-width: 768px) {
-  .grid-helados {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .grid-helados-img {
-    margin: 10px 0;
-  }
-}
 .grid-sodas {
   width: 100%;
-  height: 40vh;
+  height: 43vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 140px repeat(1, 1fr);
+  grid-template-rows: 100px repeat(1, 1fr);
   grid-template-areas: "grid-sodas-title grid-sodas-title" "grid-sodas-img grid-sodas-content";
 }
 .grid-sodas .grid-sodas-title {
   grid-area: grid-sodas-title;
   text-align: center;
-  margin: 50px;
+  padding: 40px;
 }
 .grid-sodas .grid-sodas-img {
   grid-area: grid-sodas-img;
   border-radius: 20px;
+  width: 280px;
+  height: 200px;
 }
 .grid-sodas .grid-sodas-content {
   grid-area: grid-sodas-content;
+  display: flex;
+  justify-content: space-around;
 }
 
-@media (max-width: 425px) {
-  .grid-sodas {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-}
-@media (max-width: 768px) {
-  .grid-sodas {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .grid-sodas-img {
-    margin: 10px 0;
-  }
-}
 .grid-alcohol {
   width: 100%;
-  height: 40vh;
+  height: 43vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 140px repeat(1, 1fr);
+  grid-template-rows: 100px repeat(1, 1fr);
   grid-template-areas: "grid-alcohol-title grid-alcohol-title" "grid-alcohol-img grid-alcohol-content";
 }
 .grid-alcohol .grid-alcohol-title {
   grid-area: grid-alcohol-title;
   text-align: center;
-  margin: 50px;
+  padding: 40px;
 }
 .grid-alcohol .grid-alcohol-img {
   grid-area: grid-alcohol-img;
   border-radius: 20px;
+  width: 280px;
+  height: 200px;
 }
 .grid-alcohol .grid-alcohol-content {
   grid-area: grid-alcohol-content;
 }
 
 @media (max-width: 425px) {
-  .grid-alcohol {
+  .grid-alitas-title {
+    margin: 10px;
+  }
+  .grid-alcohol, .grid-sodas, .grid-helados, .grid-alitas, .grid-hamburguesas, .grid-pizza {
     width: 100%;
     height: auto;
     display: flex;
@@ -287,7 +188,7 @@ html {
   }
 }
 @media (max-width: 768px) {
-  .grid-alcohol {
+  .grid-alcohol, .grid-sodas, .grid-helados, .grid-alitas, .grid-hamburguesas, .grid-pizza {
     width: 100%;
     height: auto;
     display: flex;
@@ -295,8 +196,8 @@ html {
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .grid-alcohol-img {
-    margin: 10px 0 0 0;
+  .grid-alcohol-img, .grid-pizza-img, .grid-hamburguesas-img, .grid-alitas-img, .grid-helados-img, .grid-sodas-img {
+    margin: 10px 0 10px 0;
   }
 }
 /*Comienzo del BODY de INDEX*/
@@ -352,6 +253,8 @@ body {
 
 .img-nintendo, .img-playstation, .img-xbox, .img-pc, .img-arcade {
   padding: 0px 0px 10px 0px;
+  width: 280px;
+  height: 175px;
 }
 
 .imgs-nintendo, .imgs-playstation, .imgs-xbox, .imgs-pc, .imgs-arcade {
@@ -382,10 +285,6 @@ body {
 .seccion-nintendo .nintendo-title { /* Maybe quitarlo no me gusta mucho*/
   box-shadow: 0 0 30px 0 #D63031;
   border-radius: 10px;
-}
-.seccion-nintendo .img-nintendo {
-  width: 300px;
-  height: 175px;
 }
 
 .seccion-playstation {
@@ -434,10 +333,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-.seccion-otro .img-arcade {
-  width: 300px;
-  height: 175px;
 }
 
 .content {

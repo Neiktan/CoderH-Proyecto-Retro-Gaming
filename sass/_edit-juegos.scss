@@ -10,6 +10,8 @@
 
 .img-nintendo, .img-playstation, .img-xbox, .img-pc, .img-arcade{
     padding: 0px 0px 10px 0px;
+    width: 280px;
+    height: 175px;
 }
 
 .imgs-nintendo, .imgs-playstation, .imgs-xbox, .imgs-pc, .imgs-arcade{
@@ -39,10 +41,6 @@
     .nintendo-title{  /* Maybe quitarlo no me gusta mucho*/
         box-shadow: 0 0 30px 0 #D63031;
         border-radius: 10px;
-    }
-    .img-nintendo{
-        width: 300px;
-        height: 175px;
     }
 }
 
@@ -95,9 +93,5 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-    }
-    .img-arcade{
-        width: 300px;
-        height: 175px;
     }
 }
