@@ -1,7 +1,7 @@
 /*Comienzo del BODY de INDEX*/
 .carusel{
     margin: 10px, auto, 30px, auto;
-}
+} //!AREGRAL/
 
 .img-size{
     width: auto;
@@ -14,7 +14,7 @@
 }
 
 .articulo-mapa, .articulo-nosotros{
-    box-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
+    box-shadow: $white-shadow;
     margin: 20px  10px;
     padding: 5px 10px 10px 10px;
 }
