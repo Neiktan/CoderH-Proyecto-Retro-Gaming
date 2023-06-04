@@ -1,9 +1,12 @@
-//Variables // 
-//Variables de Displays/  //!Agregas mas variables de variedad/
+//Variables // //!Agregas mas variables de variedad/
+$white-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
+$flex-comida: flex row wrap;
+//Variables de Displays/
 $celular-S: 320px;
 $celular: 425px;
 $tablet: 768px;
 $laptop: 1024px;
+
 
 //IMPORTS
 //Import reseteo
@@ -12,28 +15,3 @@ $laptop: 1024px;
 @import "edit-index";
 @import "edit-juegos";
 @import "edit-contactos";
-
-/*Header general*/
-
-.logo{
-    height: 50px;
-}
-
-/*Comienzo del footer*/
-footer div img{
-    align-items: center;
-}
-
-
-footer div p{  
-    text-align: center;
-}
-
-
-@media (max-width: $celular) {
-    .socials{
-        align-items: center;
-        text-align: center;
-    }
-}
-

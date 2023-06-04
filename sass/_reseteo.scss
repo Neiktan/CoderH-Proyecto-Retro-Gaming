@@ -9,3 +9,35 @@ html{
 .body-agendar .body-comida .body-index .body-juegos .body-contacto{
     padding: 1.8em;
 }
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #181818;
+    color: white;
+}
+
+.logo{ //Header//
+    height: 50px;
+}
+
+/*Footer*/
+footer div img{
+    align-items: center;
+}
+
+footer div p{  
+    text-align: center;
+}
+
+
+@media (max-width: $celular) {
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .socials{
+        align-items: center;
+        text-align: center;
+    }
+}

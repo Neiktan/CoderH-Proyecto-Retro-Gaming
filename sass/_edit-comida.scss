@@ -14,16 +14,15 @@
 }
 
 .grid-pizza, .grid-hamburguesas, .grid-alitas, .grid-helados, .grid-sodas, .grid-alcohol{
-    box-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
+    box-shadow: $white-shadow;
     margin: 0px 0px 20px 0px;
     }
     
     .grid-pizza{
     width: 100%;
-    height: 43vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);;
-    grid-template-rows: 100px repeat(1, 1fr);;
+    grid-template-rows: 1fr;
     grid-template-areas: 
         "grid-pizza-title grid-pizza-title"
         "grid-pizza-img grid-pizza-content"
@@ -51,10 +50,9 @@
 
 .grid-hamburguesas{
     width: 100%;
-    height: 43vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px repeat(1, 1fr);
+    grid-template-rows: 1fr;
     grid-template-areas:
         "grid-hamburguesas-title grid-hamburguesas-title"
         "grid-hamburguesas-img grid-hamburguesas-content"
@@ -78,10 +76,9 @@
 
 .grid-alitas{
     width: 100%;
-    height: 43vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px repeat(1, 1fr);
+    grid-template-rows: 1fr;
     grid-template-areas:
         "grid-alitas-title grid-alitas-title"
         "grid-alitas-img grid-alitas-content"
@@ -105,10 +102,9 @@
 
 .grid-helados{
     width: 100%;
-    height: 40vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px repeat(1, 1fr);
+    grid-template-rows: 1fr;
     grid-template-areas: 
         "grid-helados-title grid-helados-title"
         "grid-helados-img grid-helados-cont"
@@ -132,10 +128,9 @@
 
 .grid-sodas{
     width: 100%;
-    height: 43vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px repeat(1, 1fr);
+    grid-template-rows: 1fr;
     grid-template-areas: 
         "grid-sodas-title grid-sodas-title"
         "grid-sodas-img grid-sodas-content"
@@ -161,10 +156,9 @@
 
 .grid-alcohol{
     width: 100%;
-    height: 43vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px repeat(1, 1fr);
+    grid-template-rows: 1fr;
     grid-template-areas: 
         "grid-alcohol-title grid-alcohol-title"
         "grid-alcohol-img grid-alcohol-content"
@@ -188,8 +182,6 @@
 
 
 // @media IMPORTS ///
-
-
 @media (max-width: $celular) {
     .grid-alitas-title{
         margin: 10px;

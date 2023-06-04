@@ -10,9 +10,39 @@ html {
   padding: 1.8em;
 }
 
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #181818;
+  color: white;
+}
+
+.logo {
+  height: 50px;
+}
+
+/*Footer*/
+footer div img {
+  align-items: center;
+}
+
+footer div p {
+  text-align: center;
+}
+
+@media (max-width: 425px) {
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .socials {
+    align-items: center;
+    text-align: center;
+  }
+}
 .comida-logo, .bebidas-logo, .aperativos-logo {
   background-color: #D63031;
-  padding: 50px 50px 50px 50px;
+  padding: 50px;
   display: flex;
   text-align: center;
 }
@@ -22,7 +52,7 @@ html {
 }
 
 .margin-comida {
-  margin: 20px 20px 20px 20px;
+  margin: 20px;
 }
 
 .grid-pizza, .grid-hamburguesas, .grid-alitas, .grid-helados, .grid-sodas, .grid-alcohol {
@@ -32,10 +62,9 @@ html {
 
 .grid-pizza {
   width: 100%;
-  height: 43vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 100px repeat(1, 1fr);
+  grid-template-rows: 1fr;
   grid-template-areas: "grid-pizza-title grid-pizza-title" "grid-pizza-img grid-pizza-content";
 }
 .grid-pizza .grid-pizza-title {
@@ -59,10 +88,9 @@ html {
 
 .grid-hamburguesas {
   width: 100%;
-  height: 43vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 100px repeat(1, 1fr);
+  grid-template-rows: 1fr;
   grid-template-areas: "grid-hamburguesas-title grid-hamburguesas-title" "grid-hamburguesas-img grid-hamburguesas-content";
 }
 .grid-hamburguesas .grid-hamburguesas-title {
@@ -82,10 +110,9 @@ html {
 
 .grid-alitas {
   width: 100%;
-  height: 43vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 100px repeat(1, 1fr);
+  grid-template-rows: 1fr;
   grid-template-areas: "grid-alitas-title grid-alitas-title" "grid-alitas-img grid-alitas-content";
 }
 .grid-alitas .grid-alitas-title {
@@ -105,10 +132,9 @@ html {
 
 .grid-helados {
   width: 100%;
-  height: 40vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 100px repeat(1, 1fr);
+  grid-template-rows: 1fr;
   grid-template-areas: "grid-helados-title grid-helados-title" "grid-helados-img grid-helados-cont";
 }
 .grid-helados .grid-helados-title {
@@ -128,10 +154,9 @@ html {
 
 .grid-sodas {
   width: 100%;
-  height: 43vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 100px repeat(1, 1fr);
+  grid-template-rows: 1fr;
   grid-template-areas: "grid-sodas-title grid-sodas-title" "grid-sodas-img grid-sodas-content";
 }
 .grid-sodas .grid-sodas-title {
@@ -153,10 +178,9 @@ html {
 
 .grid-alcohol {
   width: 100%;
-  height: 43vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 100px repeat(1, 1fr);
+  grid-template-rows: 1fr;
   grid-template-areas: "grid-alcohol-title grid-alcohol-title" "grid-alcohol-img grid-alcohol-content";
 }
 .grid-alcohol .grid-alcohol-title {
@@ -201,17 +225,8 @@ html {
   }
 }
 /*Comienzo del BODY de INDEX*/
-body {
-  font-family: "Space Grotesk", sans-serif;
-  background-color: #181818;
-  color: white;
-}
-
 .carusel {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px, auto, 30px, auto;
 }
 
 .img-size {
@@ -242,7 +257,7 @@ body {
 }
 
 .seccion-playstation, .seccion-xbox, .seccion-nintendo, .seccion-otro {
-  margin: 20px 20px 20px 20px;
+  margin: 20px;
 }
 
 .flex-nintendo-title, .flex-playstation-title, .flex-xbox-title, .flex-pc-title, .flex-arcade-title {
@@ -364,7 +379,7 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-.contact-form form p {
+.contact-form form div {
   margin: 0;
   padding: 1em;
 }
@@ -407,26 +422,6 @@ body {
   .contact-form form {
     display: grid;
     grid-template-columns: 1fr;
-  }
-}
-/*Header general*/
-.logo {
-  height: 50px;
-}
-
-/*Comienzo del footer*/
-footer div img {
-  align-items: center;
-}
-
-footer div p {
-  text-align: center;
-}
-
-@media (max-width: 425px) {
-  .socials {
-    align-items: center;
-    text-align: center;
   }
 }
 
