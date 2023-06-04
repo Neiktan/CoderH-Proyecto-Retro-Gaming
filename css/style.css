@@ -58,10 +58,18 @@ footer div p {
 .grid-pizza, .grid-hamburguesas, .grid-alitas, .grid-helados, .grid-sodas, .grid-alcohol {
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
   margin: 0px 0px 20px 0px;
+  width: 100%;
+  justify-items: center;
+}
+
+.grid-alcohol-img, .grid-pizza-img, .grid-hamburguesas-img, .grid-alitas-img, .grid-helados-img, .grid-sodas-img {
+  margin: 10px 0 10px 0;
+  width: 280px;
+  height: 200px;
+  border-radius: 20px;
 }
 
 .grid-pizza {
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -73,10 +81,7 @@ footer div p {
   padding: 40px;
 }
 .grid-pizza .grid-pizza-img {
-  border-radius: 20px;
   grid-area: grid-pizza-img;
-  width: 280px;
-  height: 200px;
 }
 .grid-pizza .grid-pizza-content {
   grid-area: grid-pizza-content;
@@ -87,7 +92,6 @@ footer div p {
 }
 
 .grid-hamburguesas {
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -99,17 +103,13 @@ footer div p {
   padding: 40px;
 }
 .grid-hamburguesas .grid-hamburguesas-img {
-  border-radius: 20px;
   grid-area: grid-hamburguesas-img;
-  width: 280px;
-  height: 200px;
 }
 .grid-hamburguesas .grid-hamburguesas-content {
   grid-area: grid-hamburguesas-content;
 }
 
 .grid-alitas {
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -121,17 +121,13 @@ footer div p {
   padding: 40px;
 }
 .grid-alitas .grid-alitas-img {
-  border-radius: 20px;
   grid-area: grid-alitas-img;
-  width: 280px;
-  height: 200px;
 }
 .grid-alitas .grid-alitas-content {
   grid-area: grid-alitas-content;
 }
 
 .grid-helados {
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -143,17 +139,13 @@ footer div p {
   padding: 40px;
 }
 .grid-helados .grid-helados-img {
-  border-radius: 20px;
   grid-area: grid-helados-img;
-  width: 280px;
-  height: 200px;
 }
 .grid-helados .grid-helados-cont {
   grid-area: grid-helados-cont;
 }
 
 .grid-sodas {
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -166,9 +158,6 @@ footer div p {
 }
 .grid-sodas .grid-sodas-img {
   grid-area: grid-sodas-img;
-  border-radius: 20px;
-  width: 280px;
-  height: 200px;
 }
 .grid-sodas .grid-sodas-content {
   grid-area: grid-sodas-content;
@@ -177,7 +166,6 @@ footer div p {
 }
 
 .grid-alcohol {
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -190,9 +178,6 @@ footer div p {
 }
 .grid-alcohol .grid-alcohol-img {
   grid-area: grid-alcohol-img;
-  border-radius: 20px;
-  width: 280px;
-  height: 200px;
 }
 .grid-alcohol .grid-alcohol-content {
   grid-area: grid-alcohol-content;
@@ -219,9 +204,6 @@ footer div p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  .grid-alcohol-img, .grid-pizza-img, .grid-hamburguesas-img, .grid-alitas-img, .grid-helados-img, .grid-sodas-img {
-    margin: 10px 0 10px 0;
   }
 }
 /*Comienzo del BODY de INDEX*/
@@ -286,16 +268,17 @@ footer div p {
   padding: 0 0 10px 0;
 }
 
-.seccion-nintendo {
-  box-shadow: 0 0 20px 0 rgba(243, 27, 27, 0.3);
-}
-.seccion-nintendo .articulo-nintendo {
+.articulo-nintendo, .articulo-playstation, .articulo-xbox, .articulo-pc, .articulo-arcade {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.seccion-nintendo {
+  box-shadow: 0 0 20px 0 rgba(243, 27, 27, 0.3);
 }
 .seccion-nintendo .nintendo-title { /* Maybe quitarlo no me gusta mucho*/
   box-shadow: 0 0 30px 0 #D63031;
@@ -305,51 +288,28 @@ footer div p {
 .seccion-playstation {
   box-shadow: 0 0 20px 0 rgba(51, 64, 240, 0.3);
 }
-.seccion-playstation .articulo-playstation {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 
 .seccion-xbox {
   box-shadow: 0 0 20px 0 rgba(80, 238, 65, 0.3);
-}
-.seccion-xbox .articulo-xbox {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.seccion-xbox .img-xbox {
-  width: 300px;
-  height: 175px;
 }
 
 .seccion-otro {
   box-shadow: 0 0 20px 0 rgba(215, 255, 37, 0.3);
 }
-.seccion-otro .articulo-pc {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.seccion-otro .articulo-arcade {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 
+@media (max-width: 425px) {
+  .articulo-playstation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .pc-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .content {
   max-width: 1170px;
   margin-left: auto;

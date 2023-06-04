@@ -28,16 +28,17 @@
     padding: 0 0 10px 0;
 }
 
+.articulo-nintendo, .articulo-playstation, .articulo-xbox, .articulo-pc, .articulo-arcade{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .seccion-nintendo{
     box-shadow: 0 0 20px 0 rgba(243, 27, 27, 0.3);
-    .articulo-nintendo{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
     .nintendo-title{  /* Maybe quitarlo no me gusta mucho*/
         box-shadow: 0 0 30px 0 #D63031;
         border-radius: 10px;
@@ -46,50 +47,27 @@
 
 .seccion-playstation{
     box-shadow: 0 0 20px 0 rgba(51, 64, 240, 0.3);
-    .articulo-playstation{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
 }
 
 .seccion-xbox{
     box-shadow: 0 0 20px 0 rgba(80, 238, 65, 0.3);
-    .articulo-xbox{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .img-xbox{
-        width: 300px;
-        height: 175px;
-    }
-    
 }
 
 .seccion-otro{
     box-shadow: 0 0 20px 0 rgba(215, 255, 37, 0.3);
-    .articulo-pc{
-        width: 100%;
-        height: auto;
+}
+
+@media (max-width: $celular){
+    .articulo-playstation{
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
     }
-    .articulo-arcade{
-        width: 100%;
-        height: auto;
+}
+
+@media (max-width: $tablet) { //!PC NO SE CENTRA EL CONTENIDO EN TABLET//
+    .pc-content{
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        flex-direction: column;
     }
 }
