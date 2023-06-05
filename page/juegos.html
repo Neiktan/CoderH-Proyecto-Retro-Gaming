@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Nintendo, Xbox, Playstation, PC, Coomputadora, Arcade, Gaming, Juegos">
+        <meta name="description" content="Observa nuestro catalogo de juegos que tenemos para poder darte la diversion que necesitas.">
         <title>Juegos | Retro Gaming</title>
         <!--Link-icon-->
         <link rel="shortcut icon" href="../icons/control.png">
@@ -11,6 +13,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
         <!--animate__animated-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!--AOS-CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
         <!--Custom CSS-->
         <link rel="stylesheet" href="../css/style.css">
         <!--Fuente-->
@@ -110,7 +114,7 @@
                 </article>
             </section>
             <!--Xbox-->
-            <section class="seccion-xbox animate__animated animate__fadeInUp">
+            <section class="seccion-xbox" data-aos="fade-up">
                     <div class="flex-xbox-title">
                         <h2 class="text-success">Xbox</h2>
                     </div>
@@ -144,7 +148,7 @@
             </section>
             <!--Otros-->
             <!--PC-->
-            <section class="seccion-otro animate__animated animate__fadeInUp">
+            <section class="seccion-otro" data-aos="fade-up">
                 <article>
                     <div class="flex-pc-title">
                         <h2 class="text-warning">Computadoras Gaming</h2>
@@ -239,5 +243,9 @@
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Menu, Alitas, Pizza, Sodas, Hamburguesas">
+        <meta name="description" content="Mira nuestro menu de comida que tenemos para ti y puedas comer mientras juegas a tus juegos favoritos.">
         <title>Menu | Retro Gaming</title>
         <!--Link-icon-->
         <link rel="shortcut icon" href="../icons/control.png">
@@ -11,6 +13,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
         <!--animate__animated-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!--AOS-CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
         <!--Custom CSS-->
         <link rel="stylesheet" href="../css/style.css">
         <!--Fuente-->
@@ -47,7 +51,8 @@
                 </section>
                 <section>
                     <article class="margin-comida">
-                        <div class="grid-pizza">
+                        <!--Pizza-->
+                        <div class="grid-pizza" data-aos="zoom-in">
                             <h2 class="grid-pizza-title">Pizza</h2>
                             <img src="../images/comida/pizza.jpg" alt="Pizza" class="grid-pizza-img">
                             <div class="grid-pizza-content-all">
@@ -61,7 +66,8 @@
                                 <h5>Ingredientes: <br> <br> Pepperoni / Champinones / Cebollas / Salchicha / <br> Jamon / Jalapenos / Pina</h5>
                             </div>
                         </div>
-                        <div class="grid-hamburguesas">
+                        <!--Hamburguesas-->
+                        <div class="grid-hamburguesas" data-aos="zoom-in">
                             <h2 class="grid-hamburguesas-title">Hamburguesas</h2>
                             <img src="../images/comida/hamburguesa.jpg" alt="Hamburgesa" class="grid-hamburguesas-img">
                             <div class="grid-hamburguesas-content">
@@ -73,7 +79,8 @@
                             </div>
                             <!--Crear otra lista con combos de la misma lista de las hamburguesas-->
                         </div>
-                        <div class="grid-alitas">
+                        <!--Alitas-->
+                        <div class="grid-alitas" data-aos="zoom-in">
                             <strong class="grid-alitas-title"><h2>Alitas</h2></strong>
                             <img src="../images/comida/alitas.jpg" alt="Alitas" class="grid-alitas-img">
                             <div class="grid-alitas-content">
@@ -93,7 +100,7 @@
                         <h2 class="aperativos-text">APERATIVOS</h2>
                     </div>
                 </section>
-                <section>
+                <section data-aos="zoom-in">
                     <article class="margin-comida">
                         <div class="grid-helados">
                             <strong class="grid-helados-title"><h2>Helados</h2></strong>
@@ -119,7 +126,7 @@
                 </section>
                 <section>
                     <article class="margin-comida">
-                        <div class="grid-sodas">
+                        <div class="grid-sodas" data-aos="zoom-in">
                             <strong class="grid-sodas-title"><h2>Sodas & Mas</h2></strong>
                             <img src="../images/comida/sodas.jpg" alt="Soda" class="grid-sodas-img">
                             <div class="grid-sodas-content">
@@ -141,7 +148,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="grid-alcohol">
+                        <div class="grid-alcohol" data-aos="zoom-in">
                             <strong class="grid-alcohol-title"><h2>Alcohol</h2></strong>
                             <img src="../images/comida/cervezas-logo.jpg" alt="Alcohol" class="grid-alcohol-img">
                             <div class="grid-alcohol-content">
@@ -201,5 +208,9 @@
                 </div>
             </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

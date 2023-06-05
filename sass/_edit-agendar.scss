@@ -1,0 +1,45 @@
+.title-paquetes{
+    text-align: center;
+    margin: 10px 0;
+}
+.paquetes{
+    width: auto;
+    height: auto;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    .primerpack{
+        box-shadow: $yellow-shadow;
+        margin: 10px 20px 0 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    .segundopack{
+        box-shadow: $blue-shadow;
+        padding: 10px;
+        text-align: center;
+    }
+    .tercerpack{
+        box-shadow: $red-shadow;
+        margin: 10px 20px 0 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    .lista{
+        list-style: none;
+    }
+}
+
+
+@media (max-width: $tablet) {
+    .paquetes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .segundopack{
+        margin: 20px 20px;
+    }
+}

@@ -1,5 +1,8 @@
 //Variables // //!Agregas mas variables de variedad/
 $white-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
+$yellow-shadow: 0 0 20px 0 rgba(215, 255, 37, 0.3);
+$red-shadow: 0 0 20px 0 rgba(243, 27, 27, 0.3);
+$blue-shadow: 0 0 20px 0 rgba(51, 64, 240, 0.3);
 
 //Variables de Displays/
 $celular-S: 320px;
@@ -10,8 +13,9 @@ $laptop: 1024px;
 
 //IMPORTS
 //Import reseteo
-@import "reseteo";
+@import "general";
 @import "edit-comida";
 @import "edit-index";
 @import "edit-juegos";
 @import "edit-contactos";
+@import "edit-agendar";

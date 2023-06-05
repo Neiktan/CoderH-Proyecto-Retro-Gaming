@@ -57,13 +57,13 @@ footer div p {
 
 .grid-pizza, .grid-hamburguesas, .grid-alitas, .grid-helados, .grid-sodas, .grid-alcohol {
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
-  margin: 0px 0px 20px 0px;
+  margin-bottom: 20px;
   width: 100%;
   justify-items: center;
 }
 
 .grid-alcohol-img, .grid-pizza-img, .grid-hamburguesas-img, .grid-alitas-img, .grid-helados-img, .grid-sodas-img {
-  margin: 10px 0 10px 0;
+  margin: 10px 0;
   width: 280px;
   height: 200px;
   border-radius: 20px;
@@ -208,7 +208,7 @@ footer div p {
 }
 /*Comienzo del BODY de INDEX*/
 .carusel {
-  margin: 10px, auto, 30px, auto;
+  margin: 40px 20px 5px 20px;
 }
 
 .img-size {
@@ -235,7 +235,7 @@ footer div p {
   align-items: center;
 }
 .flex-mapa .mapa {
-  padding: 0 0 20px 0;
+  padding-bottom: 20px;
 }
 
 .seccion-playstation, .seccion-xbox, .seccion-nintendo, .seccion-otro {
@@ -245,11 +245,11 @@ footer div p {
 .flex-nintendo-title, .flex-playstation-title, .flex-xbox-title, .flex-pc-title, .flex-arcade-title {
   display: flex;
   justify-content: center;
-  padding: 10px 0 0 0;
+  padding-top: 10px;
 }
 
 .img-nintendo, .img-playstation, .img-xbox, .img-pc, .img-arcade {
-  padding: 0px 0px 10px 0px;
+  padding-bottom: 10px;
   width: 280px;
   height: 175px;
 }
@@ -265,7 +265,33 @@ footer div p {
   width: 250px;
   height: 170px;
   border-radius: 20px;
-  padding: 0 0 10px 0;
+  padding-bottom: 10px;
+  transition: 0.5s;
+}
+
+.img-nintendo-games:hover {
+  transform: scale(1.8, 1.3);
+  transition: 0.5s;
+}
+
+.img-playstation-games:hover {
+  transform: scale(1.8, 1.3);
+  transition: 0.5s;
+}
+
+.img-xbox-games:hover {
+  transform: scale(1.8, 1.3);
+  transition: 0.5s;
+}
+
+.img-pc-games:hover {
+  transform: scale(2, 1.1);
+  transition: 0.5s;
+}
+
+.img-arcade-games:hover {
+  transform: scale(1.8, 1.3);
+  transition: 0.5s;
 }
 
 .articulo-nintendo, .articulo-playstation, .articulo-xbox, .articulo-pc, .articulo-arcade {
@@ -281,7 +307,7 @@ footer div p {
   box-shadow: 0 0 20px 0 rgba(243, 27, 27, 0.3);
 }
 .seccion-nintendo .nintendo-title { /* Maybe quitarlo no me gusta mucho*/
-  box-shadow: 0 0 30px 0 #D63031;
+  box-shadow: 0 0 20px 0 rgba(243, 27, 27, 0.3);
   border-radius: 10px;
 }
 
@@ -340,7 +366,6 @@ footer div p {
 }
 
 .contact-form form div {
-  margin: 0;
   padding: 1em;
 }
 
@@ -382,6 +407,51 @@ footer div p {
   .contact-form form {
     display: grid;
     grid-template-columns: 1fr;
+  }
+}
+.title-paquetes {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.paquetes {
+  width: auto;
+  height: auto;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.paquetes .primerpack {
+  box-shadow: 0 0 20px 0 rgba(215, 255, 37, 0.3);
+  margin: 10px 20px 0 20px;
+  padding: 10px;
+  text-align: center;
+}
+.paquetes .segundopack {
+  box-shadow: 0 0 20px 0 rgba(51, 64, 240, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+.paquetes .tercerpack {
+  box-shadow: 0 0 20px 0 rgba(243, 27, 27, 0.3);
+  margin: 10px 20px 0 20px;
+  padding: 10px;
+  text-align: center;
+}
+.paquetes .lista {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .paquetes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .segundopack {
+    margin: 20px 20px;
   }
 }
 
