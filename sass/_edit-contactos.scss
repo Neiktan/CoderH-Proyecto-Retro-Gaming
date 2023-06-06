@@ -3,23 +3,27 @@
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em;
+    .logo-form{
+        text-align: center;
+        font-size: 2em;
+    }
+    .contact-wrapper{
+        box-shadow: $white-shadow;
+    }
+    .contact-form{
+        background: #222222;
+    }
+    .textarea{
+        position: relative;
+        width: calc(100% - 10px) !important;
+        height: 70%;
+        top: 20px;
+    }
 }
 
-.logo-form{
-    text-align: center;
-    font-size: 2em;
-}
-
-.contact-wrapper{
-    box-shadow: $white-shadow;
-}
-
+//!Si lo pongo arriba se rompe//
 .contact-wrapper > *{
     padding: 1em;
-}
-
-.contact-form{
-    background: #222222;
 }
 
 .contact-form form{
@@ -48,6 +52,8 @@
     padding: 1em;
 }
 
+
+
 .contact-info{
     background: #000;
 }
@@ -69,5 +75,8 @@
     .contact-form form{
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .textarea{
+        margin-bottom: 40px;
     }
 }

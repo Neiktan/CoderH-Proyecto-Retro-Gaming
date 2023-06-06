@@ -347,22 +347,25 @@ footer div p {
   margin-right: auto;
   padding: 1.5em;
 }
-
-.logo-form {
+.content .logo-form {
   text-align: center;
   font-size: 2em;
 }
-
-.contact-wrapper {
+.content .contact-wrapper {
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+.content .contact-form {
+  background: #222222;
+}
+.content .textarea {
+  position: relative;
+  width: calc(100% - 10px) !important;
+  height: 70%;
+  top: 20px;
 }
 
 .contact-wrapper > * {
   padding: 1em;
-}
-
-.contact-form {
-  background: #222222;
 }
 
 .contact-form form {
@@ -412,6 +415,9 @@ footer div p {
   .contact-form form {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .textarea {
+    margin-bottom: 40px;
   }
 }
 .title-paquetes {
