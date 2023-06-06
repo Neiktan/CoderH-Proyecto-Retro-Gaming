@@ -238,6 +238,11 @@ footer div p {
   padding-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .row {
+    align-items: center;
+  }
+}
 .seccion-playstation, .seccion-xbox, .seccion-nintendo, .seccion-otro {
   margin: 20px;
 }
@@ -451,7 +456,7 @@ footer div p {
     justify-content: center;
   }
   .segundopack {
-    margin: 20px 20px;
+    margin: 30px 20px 20px 20px;
   }
 }
 

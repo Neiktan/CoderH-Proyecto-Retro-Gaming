@@ -28,3 +28,9 @@
         padding-bottom: 20px;
     }
 }
+
+@media (max-width: $tablet) {
+    .row{
+        align-items: center;
+    }
+}

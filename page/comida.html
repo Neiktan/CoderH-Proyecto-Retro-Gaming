@@ -1,216 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="Menu, Alitas, Pizza, Sodas, Hamburguesas">
-        <meta name="description" content="Mira nuestro menu de comida que tenemos para ti y puedas comer mientras juegas a tus juegos favoritos.">
-        <title>Menu | Retro Gaming</title>
-        <!--Link-icon-->
-        <link rel="shortcut icon" href="../icons/control.png">
-        <!--Libreria Bootstrap-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-        <!--animate__animated-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <!--AOS-CSS-->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-        <!--Custom CSS-->
-        <link rel="stylesheet" href="../css/style.css">
-        <!--Fuente-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
-    </head>
-        <body class="body-comida"> 
-            <header id="inicio">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="../index.html"><img src="../icons/logo.png" alt="logo"  class="logo"></a> 
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                                <a class="nav-link" href="./juegos.html">Juegos</a>
-                                <a class="nav-link active" href="./comida.html">Menu</a>
-                                <a class="nav-link" href="./agendar.html">Agendar</a>
-                                <a class="nav-link" href="./contacto.html">Contacto</a>
-                            </div>
-                        </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Menu, Alitas, Pizza, Sodas, Hamburguesas">
+    <meta name="description"
+        content="Mira nuestro menu de comida que tenemos para ti y puedas comer mientras juegas a tus juegos favoritos.">
+    <title>Menu | Retro Gaming</title>
+    <!--Link-icon-->
+    <link rel="shortcut icon" href="../icons/control.png">
+    <!--Libreria Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!--animate__animated-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--AOS-CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="body-comida">
+    <header id="inicio">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../icons/logo.png" alt="logo" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="./juegos.html">Juegos</a>
+                        <a class="nav-link active" href="./comida.html">Menu</a>
+                        <a class="nav-link" href="./agendar.html">Agendar</a>
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
                     </div>
-                </nav>
-            </header>
-                <main>
-                <!--Comidas-->
-                <section>
-                    <div class="comida-logo">
-                        <h2 class="comida-text">COMIDA</h2>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Comidas-->
+        <section>
+            <div class="comida-logo">
+                <h2 class="comida-text">COMIDA</h2>
+            </div>
+        </section>
+        <section>
+            <article class="margin-comida">
+                <!--Pizza-->
+                <div class="grid-pizza" data-aos="zoom-in">
+                    <h2 class="grid-pizza-title">Pizza</h2>
+                    <img src="../images/comida/pizza.jpg" alt="Pizza" class="grid-pizza-img">
+                    <div class="grid-pizza-content-all">
+                        <div class="grid-pizza-content">
+                            <ul>
+                                <li>🍕 Pizza Chica (8 piezas)</li>
+                                <li>🍕 Pizza Mediana (10 piezas)</li>
+                                <li>🍕 Pizza Grande (12 piezas)</li>
+                            </ul>
+                        </div>
+                        <h5>Ingredientes: <br> <br> Pepperoni / Champinones / Cebollas / Salchicha / <br> Jamon /
+                            Jalapenos / Pina</h5>
                     </div>
-                </section>
-                <section>
-                    <article class="margin-comida">
-                        <!--Pizza-->
-                        <div class="grid-pizza" data-aos="zoom-in">
-                            <h2 class="grid-pizza-title">Pizza</h2>
-                            <img src="../images/comida/pizza.jpg" alt="Pizza" class="grid-pizza-img">
-                            <div class="grid-pizza-content-all">
-                                <div class="grid-pizza-content">
-                                    <ul>
-                                        <li>🍕 Pizza Chica (8 piezas)</li>
-                                        <li>🍕 Pizza Mediana (10 piezas)</li>
-                                        <li>🍕 Pizza Grande (12 piezas)</li>
-                                    </ul>
-                                </div>
-                                <h5>Ingredientes: <br> <br> Pepperoni / Champinones / Cebollas / Salchicha / <br> Jamon / Jalapenos / Pina</h5>
-                            </div>
-                        </div>
-                        <!--Hamburguesas-->
-                        <div class="grid-hamburguesas" data-aos="zoom-in">
-                            <h2 class="grid-hamburguesas-title">Hamburguesas</h2>
-                            <img src="../images/comida/hamburguesa.jpg" alt="Hamburgesa" class="grid-hamburguesas-img">
-                            <div class="grid-hamburguesas-content">
-                                <ul>
-                                    <li>🍔 Hamburguesa tradicional</li>
-                                    <li>🍔 Hamburguesa con tocino</li>
-                                    <li>🍔 Hamburguesa doble carne</li>
-                                </ul>
-                            </div>
-                            <!--Crear otra lista con combos de la misma lista de las hamburguesas-->
-                        </div>
-                        <!--Alitas-->
-                        <div class="grid-alitas" data-aos="zoom-in">
-                            <strong class="grid-alitas-title"><h2>Alitas</h2></strong>
-                            <img src="../images/comida/alitas.jpg" alt="Alitas" class="grid-alitas-img">
-                            <div class="grid-alitas-content">
-                                <h4>Tenemos Alitas de 6, 10, 14 y 18 piezas con su respectivo precio dependiendo de la cantidad de piezas</h4>
-                                <ul>
-                                    <li>🍗 Buffalo</li>
-                                    <li>🍗 BBQ</li>
-                                    <li>🍗 Lemon Pepper</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </article>
-                </section>
-                <!--Aperativos-->
-                <section>
-                    <div class="aperativos-logo">
-                        <h2 class="aperativos-text">APERATIVOS</h2>
+                </div>
+                <!--Hamburguesas-->
+                <div class="grid-hamburguesas" data-aos="zoom-in">
+                    <h2 class="grid-hamburguesas-title">Hamburguesas</h2>
+                    <img src="../images/comida/hamburguesa.jpg" alt="Hamburgesa" class="grid-hamburguesas-img">
+                    <div class="grid-hamburguesas-content">
+                        <ul>
+                            <li>🍔 Hamburguesa tradicional</li>
+                            <li>🍔 Hamburguesa con tocino</li>
+                            <li>🍔 Hamburguesa doble carne</li>
+                        </ul>
                     </div>
-                </section>
-                <section data-aos="zoom-in">
-                    <article class="margin-comida">
-                        <div class="grid-helados">
-                            <strong class="grid-helados-title"><h2>Helados</h2></strong>
-                            <img src="../images/comida/helado.jpg" alt="Helado" class="grid-helados-img">
-                            <div class="grid-helados-cont">
-                                <h3>Sabores:</h3>
-                                <ul>
-                                    <li>🍧 Limon</li>
-                                    <li>🍧 Chocolate</li>
-                                    <li>🍧 Vainilla</li>
-                                    <li>🍧 Fresa</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--Agregar un parrafo de texto o almenos una lista mas con un nuevo div-->
-                    </article>
-                </section>
-                <!--Bebidas-->
-                <section>
-                    <div class="bebidas-logo">
-                        <h2 class="bebidas-text">BEBIDAS</h2>
+                    <!--Crear otra lista con combos de la misma lista de las hamburguesas-->
+                </div>
+                <!--Alitas-->
+                <div class="grid-alitas" data-aos="zoom-in">
+                    <strong class="grid-alitas-title">
+                        <h2>Alitas</h2>
+                    </strong>
+                    <img src="../images/comida/alitas.jpg" alt="Alitas" class="grid-alitas-img">
+                    <div class="grid-alitas-content">
+                        <h4>Tenemos Alitas de 6, 10, 14 y 18 piezas con su respectivo precio dependiendo de la cantidad
+                            de piezas</h4>
+                        <ul>
+                            <li>🍗 Buffalo</li>
+                            <li>🍗 BBQ</li>
+                            <li>🍗 Lemon Pepper</li>
+                        </ul>
                     </div>
-                </section>
-                <section>
-                    <article class="margin-comida">
-                        <div class="grid-sodas" data-aos="zoom-in">
-                            <strong class="grid-sodas-title"><h2>Sodas & Mas</h2></strong>
-                            <img src="../images/comida/sodas.jpg" alt="Soda" class="grid-sodas-img">
-                            <div class="grid-sodas-content">
-                                <ul>
-                                    <li>🥤 Coca-Cola</li>
-                                    <li>🥤 Coca-Cola Zero</li>
-                                    <li>🥤 Fanta</li>
-                                    <li>🥤 Sprite</li>
-                                    <li>🥤 Dr Pepper</li>
-                                </ul>
-                                <!--ponerlo en otro div la lista de abajo-->
-                                <ul>
-                                    <li>🥤 Agua</li>
-                                    <li>🥤 Limonada</li>
-                                    <li>🥤 Iced Tea</li>
-                                    <li>🥤 Sweet Tea</li>
-                                    <li>🥤 Hot Tea</li>
-                                    <li>🥤 Jugo de Naranja</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="grid-alcohol" data-aos="zoom-in">
-                            <strong class="grid-alcohol-title"><h2>Alcohol</h2></strong>
-                            <img src="../images/comida/cervezas-logo.jpg" alt="Alcohol" class="grid-alcohol-img">
-                            <div class="grid-alcohol-content">
-                                <ul>
-                                    <li>🍻 Corona</li>
-                                    <li>🍻 Bud Light</li>
-                                    <li>🍻 XX</li>
-                                    <li>🍻 Modelo</li>
-                                    <li>🍻 Heineken</li>
-                                </ul>
-                                <small class="text-muted">🔴 Para poder obtener bebidas alcoholicas deberas de ser mayor de edad (18 anos) 🔴</small>
-                            </div>
-                        </div>
-                    </article>
-                </section>
-            </main>
-            <footer class="d-flex justify-content-between p-3 my-3 border-top">
-                <div class="col-2 mb-3">
-                    <a class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-                        <svg class="bi me-2" width="40" height="32">
-                            <use xlink:href="#bootstrap"></use>
-                        </svg>
-                        <img src="../icons/logo.png" alt="logo"></a>
-                    <p class="text-muted">©2023 Retro Gaming, Inc • Todos los Derechos Reservados</p>
                 </div>
-                <div class="col mb-4">
+            </article>
+        </section>
+        <!--Aperativos-->
+        <section>
+            <div class="aperativos-logo">
+                <h2 class="aperativos-text">APERATIVOS</h2>
+            </div>
+        </section>
+        <section data-aos="zoom-in">
+            <article class="margin-comida">
+                <div class="grid-helados">
+                    <strong class="grid-helados-title">
+                        <h2>Helados</h2>
+                    </strong>
+                    <img src="../images/comida/helado.jpg" alt="Helado" class="grid-helados-img">
+                    <div class="grid-helados-cont">
+                        <h3>Sabores:</h3>
+                        <ul>
+                            <li>🍧 Limon</li>
+                            <li>🍧 Chocolate</li>
+                            <li>🍧 Vainilla</li>
+                            <li>🍧 Fresa</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-3 mb-3 socials">
-                    <h5>Redes Sociales</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="https://www.facebook.com/" target="_blank"
-                                class="nav-link p-0 text-muted"><img src="../icons/iconos-footer/icono-facebook.png"
-                                    alt="Facebook"> Facebook</a></li>
-                        <li class="nav-item mb-2"><a href="https://twitter.com/" target="_blank"
-                                class="nav-link p-0 text-muted"><img src="../icons/iconos-footer/icono-twitter.png" alt="Twitter">
-                                Twitter</a></li>
-                        <li class="nav-item mb-2"><a href="https://www.youtube.com/" target="_blank"
-                                class="nav-link p-0 text-muted"><img src="../icons/iconos-footer/icono-youtube.png" alt="YouTube">
-                                YouTube</a></li>
-                        <li class="nav-item mb-2"><a href="https://www.instagram.com/" target="_blank"
-                                class="nav-link p-0 text-muted"><img src="../icons/iconos-footer/icono-instagram.png"
-                                    alt="Instagram"> Instagram</a></li>
-                        <li class="nav-item mb-2"><a href="https://www.tiktok.com/en/" target="_blank"
-                                class="nav-link p-0 text-muted"><img src="../icons/iconos-footer/icono-tiktok.png" alt="TikTok">
-                                TikTok</a></li>
-                    </ul>
+                <!--Agregar un parrafo de texto o almenos una lista mas con un nuevo div-->
+            </article>
+        </section>
+        <!--Bebidas-->
+        <section>
+            <div class="bebidas-logo">
+                <h2 class="bebidas-text">BEBIDAS</h2>
+            </div>
+        </section>
+        <section>
+            <article class="margin-comida">
+                <div class="grid-sodas" data-aos="zoom-in">
+                    <strong class="grid-sodas-title">
+                        <h2>Sodas & Mas</h2>
+                    </strong>
+                    <img src="../images/comida/sodas.jpg" alt="Soda" class="grid-sodas-img">
+                    <div class="grid-sodas-content">
+                        <ul>
+                            <li>🥤 Coca-Cola</li>
+                            <li>🥤 Coca-Cola Zero</li>
+                            <li>🥤 Fanta</li>
+                            <li>🥤 Sprite</li>
+                            <li>🥤 Dr Pepper</li>
+                        </ul>
+                        <!--ponerlo en otro div la lista de abajo-->
+                        <ul>
+                            <li>🥤 Agua</li>
+                            <li>🥤 Limonada</li>
+                            <li>🥤 Iced Tea</li>
+                            <li>🥤 Sweet Tea</li>
+                            <li>🥤 Hot Tea</li>
+                            <li>🥤 Jugo de Naranja</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-3 mb-3 socials">
-                    <h5>Support</h5>
-                    <ul class="nav flex-column"> <!--Se elimino los "href"-->
-                        <li class="nav-item mb-2"><a href="../index.html" class="nav-link p-0 text-muted">Inicio</a></li>
-                        <li class="nav-item mb-2"><a class="nav-link p-0 text-muted">Termino y Condiciones</a></li>
-                        <li class="nav-item mb-2"><a class="nav-link p-0 text-muted">Politicas y Privacidad</a></li>
-                        <li class="nav-item mb-2"><a class="nav-link p-0 text-muted">FAQs</a></li>
-                        <li class="nav-item mb-2"><a class="nav-link p-0 text-muted">Trabajos</a></li>
-                    </ul>
+                <div class="grid-alcohol" data-aos="zoom-in">
+                    <strong class="grid-alcohol-title">
+                        <h2>Alcohol</h2>
+                    </strong>
+                    <img src="../images/comida/cervezas-logo.jpg" alt="Alcohol" class="grid-alcohol-img">
+                    <div class="grid-alcohol-content">
+                        <ul>
+                            <li>🍻 Corona</li>
+                            <li>🍻 Bud Light</li>
+                            <li>🍻 XX</li>
+                            <li>🍻 Modelo</li>
+                            <li>🍻 Heineken</li>
+                        </ul>
+                        <small class="text-muted">🔴 Para poder obtener bebidas alcoholicas deberas de ser mayor de edad
+                            (18 anos) 🔴</small>
+                    </div>
                 </div>
-            </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
-    </body>
+            </article>
+        </section>
+    </main>
+    <footer class="d-flex justify-content-between p-3 my-3 border-top">
+        <div class="col-2 mb-3">
+            <a class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <img src="../icons/logo.png" alt="logo"></a>
+            <p class="text-muted">©2023 Retro Gaming, Inc • Todos los Derechos Reservados</p>
+        </div>
+        <div class="col mb-4">
+        </div>
+        <div class="col-3 mb-3 socials">
+            <h5>Redes Sociales</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="https://www.facebook.com/" target="_blank"
+                        class="nav-link p-0 text-muted"><img src="../icons/iconos-footer/icono-facebook.png"
+                            alt="Facebook"> Facebook</a></li>
+                <li class="nav-item mb-2"><a href="https://twitter.com/" target="_blank"
+                        class="nav-link p-0 text-muted"><img src="../icons/iconos-footer/icono-twitter.png"
+                            alt="Twitter">
+                        Twitter</a></li>
+                <li class="nav-item mb-2"><a href="https://www.youtube.com/" target="_blank"
+                        class="nav-link p-0 text-muted"><img src="../icons/iconos-footer/icono-youtube.png"
+                            alt="YouTube">
+                        YouTube</a></li>
+                <li class="nav-item mb-2"><a href="https://www.instagram.com/" target="_blank"
+                        class="nav-link p-0 text-muted"><img src="../icons/iconos-footer/icono-instagram.png"
+                            alt="Instagram"> Instagram</a></li>
+                <li class="nav-item mb-2"><a href="https://www.tiktok.com/en/" target="_blank"
+                        class="nav-link p-0 text-muted"><img src="../icons/iconos-footer/icono-tiktok.png" alt="TikTok">
+                        TikTok</a></li>
+            </ul>
+        </div>
+        <div class="col-3 mb-3 socials">
+            <h5>Support</h5>
+            <ul class="nav flex-column"> <!--Se elimino los "href"-->
+                <li class="nav-item mb-2"><a href="../index.html" class="nav-link p-0 text-muted">Inicio</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-muted">Termino y Condiciones</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-muted">Politicas y Privacidad</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-muted">Trabajos</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
 </html>
