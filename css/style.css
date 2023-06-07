@@ -20,24 +20,41 @@ body {
   height: 50px;
 }
 
-/*Footer*/
-footer div img {
+/*Comienzo del BODY de INDEX*/
+.carusel {
+  margin: 40px 20px 5px 20px;
+}
+
+.img-size {
+  width: auto;
+  height: auto;
+}
+
+.card-img-top {
+  width: auto;
+  height: 200px;
+}
+
+.articulo-mapa, .articulo-nosotros {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+  margin: 20px 10px;
+  padding: 5px 10px 10px 10px;
+}
+
+.flex-mapa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
 }
-
-footer div p {
-  text-align: center;
+.flex-mapa .mapa {
+  padding-bottom: 20px;
 }
 
-@media (max-width: 425px) {
-  .d-flex {
-    display: flex;
-    flex-direction: column;
+@media (max-width: 768px) {
+  .row {
     align-items: center;
-  }
-  .socials {
-    align-items: center;
-    text-align: center;
   }
 }
 .comida-logo, .bebidas-logo, .aperativos-logo {
@@ -206,43 +223,6 @@ footer div p {
     justify-content: space-around;
   }
 }
-/*Comienzo del BODY de INDEX*/
-.carusel {
-  margin: 40px 20px 5px 20px;
-}
-
-.img-size {
-  width: auto;
-  height: auto;
-}
-
-.card-img-top {
-  width: auto;
-  height: 200px;
-}
-
-.articulo-mapa, .articulo-nosotros {
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
-  margin: 20px 10px;
-  padding: 5px 10px 10px 10px;
-}
-
-.flex-mapa {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-.flex-mapa .mapa {
-  padding-bottom: 20px;
-}
-
-@media (max-width: 768px) {
-  .row {
-    align-items: center;
-  }
-}
 .seccion-playstation, .seccion-xbox, .seccion-nintendo, .seccion-otro {
   margin: 20px;
 }
@@ -310,10 +290,6 @@ footer div p {
 
 .seccion-nintendo {
   box-shadow: 0 0 20px 0 rgba(243, 27, 27, 0.3);
-}
-.seccion-nintendo .nintendo-title { /* Maybe quitarlo no me gusta mucho*/
-  box-shadow: 0 0 20px 0 rgba(243, 27, 27, 0.3);
-  border-radius: 10px;
 }
 
 .seccion-playstation {
@@ -463,6 +439,26 @@ footer div p {
   }
   .segundopack {
     margin: 30px 20px 20px 20px;
+  }
+}
+/*Footer*/
+footer div img {
+  align-items: center;
+}
+
+footer div p {
+  text-align: center;
+}
+
+@media (max-width: 425px) {
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .socials {
+    align-items: center;
+    text-align: center;
   }
 }
 

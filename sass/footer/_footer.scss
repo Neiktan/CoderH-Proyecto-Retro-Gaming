@@ -1,0 +1,21 @@
+/*Footer*/
+footer div img{
+    align-items: center;
+}
+
+footer div p{  
+    text-align: center;
+}
+
+//!creo que arreglar mas  //
+@media (max-width: $celular) {
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .socials{
+        align-items: center;
+        text-align: center;
+    }
+}

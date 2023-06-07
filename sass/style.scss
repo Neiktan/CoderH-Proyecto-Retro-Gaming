@@ -5,18 +5,25 @@ $red-shadow: 0 0 20px 0 rgba(243, 27, 27, 0.3);
 $blue-shadow: 0 0 20px 0 rgba(51, 64, 240, 0.3);
 $paquetes-box: 10px 20px 0 20px;
 
-//Variables de Displays/
+//Variables de Displays//
 $celular-S: 320px;
 $celular: 425px;
 $tablet: 768px;
 $laptop: 1024px;
 
 
-//IMPORTS
-//Import reseteo
+//IMPORTS//
+//**Import reseteo//
 @import "general";
-@import "edit-comida";
-@import "edit-index";
-@import "edit-juegos";
-@import "edit-contactos";
-@import "edit-agendar";
+
+//**Index//
+@import "index/edit-index";
+
+//**sub-pages//
+@import "comida/edit-comida";
+@import "juegos/edit-juegos";
+@import "contacto/edit-contactos";
+@import "agendar/edit-agendar";
+
+//**footer//
+@import "footer/footer"
