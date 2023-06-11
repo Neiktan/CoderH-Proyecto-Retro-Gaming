@@ -7,10 +7,22 @@
     height: auto;
 }
 
+.articulo-nosotros h3 span{
+    color: rgb(250, 78, 78);
+}
+
+///About Us///
+
+.articulo-nosotros h2{
+    text-align: center;
+}
+
+
 .card-img-top{
     width: auto;
     height: 200px;
 }
+
 
 .articulo-mapa, .articulo-nosotros{
     box-shadow: $white-shadow;

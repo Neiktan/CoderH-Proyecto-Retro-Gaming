@@ -30,6 +30,14 @@ body {
   height: auto;
 }
 
+.articulo-nosotros h3 span {
+  color: rgb(250, 78, 78);
+}
+
+.articulo-nosotros h2 {
+  text-align: center;
+}
+
 .card-img-top {
   width: auto;
   height: 200px;
