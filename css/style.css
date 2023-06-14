@@ -30,7 +30,11 @@ body {
   height: auto;
 }
 
-.articulo-nosotros h3 span {
+.articulo-nosotros h1 {
+  text-align: center;
+}
+
+.articulo-nosotros h2 span {
   color: rgb(250, 78, 78);
 }
 
@@ -47,6 +51,10 @@ body {
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
   margin: 20px 10px;
   padding: 5px 10px 10px 10px;
+}
+
+.articulo-mapa div h2 {
+  text-align: center;
 }
 
 .flex-mapa {
@@ -231,6 +239,12 @@ body {
     justify-content: space-around;
   }
 }
+.title-juegos {
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(204, 224, 16);
+}
+
 .seccion-playstation, .seccion-xbox, .seccion-nintendo, .seccion-otro {
   margin: 20px;
 }

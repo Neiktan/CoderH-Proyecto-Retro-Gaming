@@ -1,3 +1,9 @@
+.title-juegos{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(204, 224, 16);
+}
+
 .seccion-playstation, .seccion-xbox, .seccion-nintendo, .seccion-otro{
     margin: 20px;
 }
@@ -87,7 +93,7 @@
     }
 }
 
-@media (max-width: $tablet) { //!PC NO SE CENTRA EL CONTENIDO EN TABLET//
+@media (max-width: $tablet) {
     .pc-content{
         display: flex;
         flex-direction: column;

@@ -7,7 +7,11 @@
     height: auto;
 }
 
-.articulo-nosotros h3 span{
+.articulo-nosotros h1{
+    text-align: center;
+}
+
+.articulo-nosotros h2 span{
     color: rgb(250, 78, 78);
 }
 
@@ -17,17 +21,21 @@
     text-align: center;
 }
 
-
 .card-img-top{
     width: auto;
     height: 200px;
 }
 
-
 .articulo-mapa, .articulo-nosotros{
     box-shadow: $white-shadow;
     margin: 20px  10px;
     padding: 5px 10px 10px 10px;
+}
+
+//mapa//
+
+.articulo-mapa div h2{
+    text-align: center;
 }
 
 .flex-mapa{
