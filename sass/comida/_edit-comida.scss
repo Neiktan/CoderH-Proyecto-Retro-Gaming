@@ -1,8 +1,8 @@
 .comida-logo, .bebidas-logo, .aperativos-logo{
-    background-color: #D63031;
-    padding: 50px;
-    display: flex;
-    text-align: center;
+    background-color: map-get($logos, color);
+    padding: map-get($logos, padd);
+    display: map-get($logos, dis);
+    text-align: map-get($logos, centro);
 }
 
 .comida-text, .aperativos-text, .bebidas-text{
@@ -52,7 +52,6 @@
     }
 }
 
-
 .grid-hamburguesas{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -73,7 +72,6 @@
         grid-area: grid-hamburguesas-content;
     }
 }
-
 
 .grid-alitas{
     display: grid;
@@ -96,7 +94,6 @@
     }
 }
 
-
 .grid-helados{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -117,7 +114,6 @@
         grid-area: grid-helados-cont;
     }
 }
-
 
 .grid-sodas{
     display: grid;
@@ -141,7 +137,6 @@
         justify-content: space-around;
     }
 }
-
 
 .grid-alcohol{
     display: grid;
@@ -171,23 +166,13 @@
     .grid-alitas-title{
         margin: 10px;
     }
-    .grid-alcohol, .grid-sodas, .grid-helados, .grid-alitas, .grid-hamburguesas, .grid-pizza{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
 }
 
-@media (max-width: $tablet) { //Esta manera esta bien aunque tambien se lo puedo quitar//
+@media (max-width: $tablet) { //Esta manera esta bien aunque tambien se lo puedo quitar pero debo ponerle lo mismo en $celular//
     .grid-alcohol, .grid-sodas, .grid-helados, .grid-alitas, .grid-hamburguesas, .grid-pizza{
         width: 100%;
         height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        @include flex-row-wrap;
         justify-content: space-around;
     }
 }

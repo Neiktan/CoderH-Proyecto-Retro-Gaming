@@ -220,14 +220,6 @@ body {
   .grid-alitas-title {
     margin: 10px;
   }
-  .grid-alcohol, .grid-sodas, .grid-helados, .grid-alitas, .grid-hamburguesas, .grid-pizza {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
 }
 @media (max-width: 768px) {
   .grid-alcohol, .grid-sodas, .grid-helados, .grid-alitas, .grid-hamburguesas, .grid-pizza {

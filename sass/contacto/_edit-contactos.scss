@@ -41,12 +41,12 @@
     border: none;
     background: none;
     outline: 0;
-    border-bottom: 1px solid #D63031;
+    border-bottom: 1px solid map-get($logos, color);
     color: #fff;
 }
 
 .contact-form form button{
-    background-color: #D63031;
+    background-color: map-get($logos, color);
     border: 0;
     text-transform: uppercase;
     padding: 1em;

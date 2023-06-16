@@ -21,9 +21,7 @@
 }
 
 .imgs-nintendo, .imgs-playstation, .imgs-xbox, .imgs-pc, .imgs-arcade{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @include flex-row-wrap;
     justify-content: space-evenly;
 }
 
@@ -63,26 +61,14 @@
 .articulo-nintendo, .articulo-playstation, .articulo-xbox, .articulo-pc, .articulo-arcade{
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @include flex-row-wrap;
     justify-content: space-around;
 }
 
-.seccion-nintendo{
-    box-shadow: $red-shadow;
-}
-
-.seccion-playstation{
-    box-shadow: $blue-shadow;
-}
-
-.seccion-xbox{
-    box-shadow: 0 0 20px 0 rgba(80, 238, 65, 0.3);
-}
-
-.seccion-otro{
-    box-shadow: $yellow-shadow;
+@each $name, $color in $shadows {
+    .#{$name}{
+        box-shadow: $color;
+    }
 }
 
 @media (max-width: $celular){

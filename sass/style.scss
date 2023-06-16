@@ -1,9 +1,34 @@
-//Variables // //!Agregas mas variables de variedad/
+//Variables //
 $white-shadow: 0 0 20px 0 rgb(255, 255, 255, .3);
 $yellow-shadow: 0 0 20px 0 rgba(215, 255, 37, 0.3);
 $red-shadow: 0 0 20px 0 rgba(243, 27, 27, 0.3);
 $blue-shadow: 0 0 20px 0 rgba(51, 64, 240, 0.3);
+$green-shadow: 0 0 20px 0 rgba(80, 238, 65, 0.3);
 $paquetes-box: 10px 20px 0 20px;
+
+//Maps//
+$shadows: (
+    seccion-nintendo: $red-shadow,
+    seccion-playstation: $blue-shadow,
+    seccion-xbox: $green-shadow,
+    seccion-otro: $yellow-shadow,
+);
+
+//**map-get**//
+$logos: (
+    color: #D63031,
+    centro: center,
+    dis: flex,
+    padd: 50px,
+);
+
+//Mixins//
+@mixin flex-row-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 
 //Variables de Displays//
 $celular-S: 320px;

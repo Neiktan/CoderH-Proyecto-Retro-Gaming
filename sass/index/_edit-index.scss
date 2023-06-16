@@ -39,9 +39,7 @@
 }
 
 .flex-mapa{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @include flex-row-wrap;
     justify-content: space-around;
     align-items: center;
     .mapa{
